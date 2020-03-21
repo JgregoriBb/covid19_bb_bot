@@ -1,0 +1,105 @@
+body {
+  font-family: "Noto Serif",serif;
+}
+
+header {
+  background-color: Black;
+  height: fit-content;
+
+}
+
+h1 {
+  color:white;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-align: center;
+  font-size: 35px;
+}
+
+h3 {
+  color: white;
+  font-size: 20px;
+  margin-top: 3px;
+  text-align: center;
+}
+
+#chatbox {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 60px;
+}
+
+#userInput {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 60px;
+}
+
+#textInput {
+  width: 87%;
+  border: none;
+  border-bottom: 3px solid purple;
+  font-family: "Noto Serif",serif;
+  font-size: 17px;
+}
+
+#buttonInput {
+  padding: 3px;
+  font-family: "Noto Serif",serif;
+  font-size: 17px;
+}
+
+.userText {
+  color: white;
+  font-family: "Noto Serif",serif;
+  font-size: 17px;
+  text-align: right;
+  line-height: 30px;
+}
+
+.userText span {
+  background-color: #d4840b;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.botText {
+  color: white;
+  font-family: "Noto Serif",serif;
+  font-size: 17px;
+  text-align: left;
+  line-height: 30px;
+}
+
+span img {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+
+.botText span {
+  background-color: purple;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+#tidbit {
+  position:absolute;
+  bottom:0;
+  right:0;
+  width: 300px;
+}
+
+footer{
+  text-align: center;
+  margin-top: 50px;
+  font-size: px;
+}
+
+#buttonInput {
+  font-size: 20px;
+  background-color: purple;
+  color: white;
+}
