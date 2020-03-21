@@ -1,14 +1,3 @@
-
-# COVID-19 INFO BOT
-# A simple bot with chatterbot and Flask to provide users with information about COVID-19
-# This bot is trained with information from the WHO Coronavirus FAQ that can be found here: https://www.who.int/news-room/q-a-detail/q-a-coronaviruses
-# Given the need from accurate medical information from a reliable source, this bot will not learn from user responses.
-# This bot is a proof of concept, it is not meant to be used in production. Whatever you do with it, it´s at your own risk.
-# I used a number of tutorials and resources online:
-# ---> Chatterbot documentation: https://chatterbot.readthedocs.io/en/stable/
-# ---> Webscraping tutorial with Beautiful Soup: https://realpython.com/beautiful-soup-web-scraper-python/
-# ---> How to create a bot with Flask and Chatterbot:
-
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from flask import Flask, render_template, request
