@@ -1,6 +1,3 @@
-# covid19_bb_bot
-A simple bot that provides information from the WHO Covid-19 FAQ
-
 # COVID-19 INFO BOT
 A simple bot with chatterbot and Flask to provide users with information about COVID-19
 This bot is trained with information from the WHO Coronavirus FAQ that can be found here: https://www.who.int/news-room/q-a-detail/q-a-coronaviruses. The script in scrapper.py connects to the WHO FAQ about COVID-19 and uses Beautiful Soup to scrap the information, formatting it to a YAML file that is then used to train the bot.
