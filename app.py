@@ -6,7 +6,9 @@ app = Flask(__name__)
 
 bot = ChatBot(
     'COVID-19 INFO BOT',
-    storage_adapter='chatterbot.storage.SQLStorageAdapter',
+    storage_adapter = "chatterbot.storage.MongoDatabaseAdapter",
+    database = heroku_24m8nt2q,
+    database_uri = mongodb://<covid_bot_db>:<covid_bot_db@2020>@ds031895.mlab.com:31895/heroku_24m8nt2q
     logic_adapters=[
         {
             'import_path': 'chatterbot.logic.BestMatch',
