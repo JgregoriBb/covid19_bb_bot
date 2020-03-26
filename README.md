@@ -12,3 +12,11 @@ I used a number of tutorials and resources online:
 ---> Webscraping tutorial with Beautiful Soup: https://realpython.com/beautiful-soup-web-scraper-python/
 ---> How to create a bot with Flask and Chatterbot: https://github.com/chamkank/flask-chatterbot/blob/master/app.py
 ---> Creando un chatbot with Python en muy pocos minutos: https://www.youtube.com/watch?v=Yd0e4uven-g&t=256s
+
+# Deployment:
+
+After some trial and error, I adapted this app to be deployed on Heroku via their CLI tool, that explains having the NTLK packages in a separate txt file and Gunicorn in the requirements file. Also the usage of mongo db. If you want to deploy the app as I did you will need to update your Mongo DB database and URI in the app.py file. 
+
+It is also easy to change the database adapter in chatterbot to use other databases such as SQL or postgress.
+
+Finally, before deployment, do not forget to run the scrapper.py script to generate the training file.
