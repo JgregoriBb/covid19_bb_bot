@@ -8,7 +8,7 @@
   <header>
    <h1>COVID-19 info Bot</h1>
   </header>
-  <body>
+  <body onload="appinfo()">
     <div>
       <div id="chatbox">
         <p class="botText"><span> <img src="/static/bot_icon.png"> Hi! I'm here to help. I have been trained to answer your questions about COVID-19</span></p>
@@ -38,6 +38,11 @@
         $("#buttonInput").click(function() {
           getBotResponse();
         })
+      </script>
+      <script>
+        function appinfo(){
+        alert("DISCLAIMER: This bot provides information about COVID-19 provided by the World Health Organization (WHO) from its WHO COVID-19 FAQ page.  It does not pull from any other sources and is not providing medical advice.  Further, this application does not gather any information about the user. ")
+        }
       </script>
     </div>
     <footer>
