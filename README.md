@@ -15,7 +15,9 @@ I used a number of tutorials and resources online:
 
 # Deployment:
 
-After some trial and error, I adapted this app to be deployed on Heroku via their CLI tool, that explains having the NTLK packages in a separate txt file and Gunicorn in the requirements file. Also the usage of mongo db. If you want to deploy the app as I did you will need to update your Mongo DB database and URI in the app.py file. 
+After some trial and error, I adapted this app to be deployed on Heroku via their CLI tool.
+
+That explains having the NTLK packages in a separate txt file and Gunicorn in the requirements file. Also the usage of mongo db. If you want to deploy the app as I did you will need to update your Mongo DB database and URI in the app.py file. 
 
 It is also easy to change the database adapter in chatterbot to use other databases such as SQL or postgress.
 
